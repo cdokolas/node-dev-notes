@@ -29,27 +29,41 @@ This keeps preferred formatting styles in a `.editorconfig` project-local file a
   I think this may be the most important component for writing clean ES6 code.
 - [Flow](http://flowtype.org/) (static type checker)
   Looks interesting
+- [JSHint](http://jshint.com/about/) (static analysis)
+- [complexity-report](https://github.com/escomplex/complexity-report) (?)
 
 ### Frameworks/Libraries
 
-**Web Components (and related stuff):**
+#### Web Components (and related stuff)
 
 I'm mainly on the pro-React camp for the following reasons:
 
-- JSX is better (being JS-with-HTML instead of the other way around)
+- JSX is better (being JS-with-HTML instead of the other way around, or separating them needlessly)
 - Server-side pre-render
 - Cleaner HTML (HTML is *HTML!*)
 - ...?
 
+With React, one should use:
+
+- [Flux](https://facebook.github.io/flux/) as an architecture
+- [react-router](https://github.com/reactjs/react-router) for routing
+- [Redux](http://redux.js.org/) to control state transitions (a Flux implementation?)
+
 Interesting reads from the front lines:
 
 - [Angular 2 versus React: There Will Be Blood](https://medium.freecodecamp.com/angular-2-versus-react-there-will-be-blood-66595faafd51#.ojybr1i6u)
+- [React vs Angular 2 - compare the incomparable?](http://blog.scalac.io/2016/02/16/react-vs-angular-2.html)
+- [FullStackReact](https://www.fullstackreact.com) (site dedicated to full stack development with react; need to go over the whole [yelp clone article](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/))
 
-**ORM - data access:**
+#### ORM - data access
 
 - [loopback-datasource-juggler](https://github.com/strongloop/loopback-datasource-juggler/), part of the LoopBack tools (*"An ORM/ODM that provides a common set of interfaces for interacting with databases, REST APIs, and other types of data sources."*)
 
-**Graphs (data visualization):**
+#### GraphQL
+
+- [Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) (GraphQL for React)
+
+#### Data Visualization (Graphs)
 
 - D3 (how well does it integrate with React?)
 

@@ -17,6 +17,8 @@ Currently, this is mostly server-oriented.
 
 ### General
 
+- [Gerrit Code Review](https://www.gerritcodereview.com/) instead of [gitflow](http://nvie.com/posts/a-successful-git-branching-model/`? (read [Abandoning Gitflow and GitHub in favour of Gerrit](https://www.beepsend.com/2016/04/05/abandoning-gitflow-github-favour-gerrit/))
+
 ### Code style/analysis
 
 - [editorconfig](http://editorconfig.org/) and [atom module](https://atom.io/packages/editorconfig) for consistent code style on the IDE

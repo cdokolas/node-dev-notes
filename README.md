@@ -36,12 +36,38 @@ This keeps preferred formatting styles in a `.editorconfig` project-local file a
 
 ### Frameworks/Libraries
 
+#### Server framework
+
+##### Express
+
+I like the [Express](http://expressjs.com/) framework, a "fast, unopinionated, minimalist web framework for Node.js".
+
+With that, there are a few options that can be selected...
+
+**Templating engines for Express**
+
+* Jade
+
+ Jade is the classic templating engine for Express. It's a little weird and some features can be confusing. Also, it's not friendly to classic HTML developers as the syntax is not much like HTML.
+
+- Mustache/Hogan
+- React (with [express-react-views](https://github.com/reactjs/express-react-views)). More about React below.
+
+Sources:
+- [Comparing JavaScript Templating Engines: Jade, Mustache, Dust and More](https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/) (an old post at StrongLoop)
+- [Isomorphic React Apps with React-Engine](https://www.paypal-engineering.com/2015/04/27/isomorphic-react-apps-with-react-engine/)
+- [Isomorphic JavaScript: The Future of Web Apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
+
+##### Meteor
+
+"a large, opinionated Node.js framework"
+
 #### Web Components (and related stuff)
 
 I'm mainly on the pro-React camp for the following reasons:
 
 - JSX is better (being JS-with-HTML instead of the other way around, or separating them needlessly)
-- Server-side pre-render
+- Server-side pre-render gives [isomorphic apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
 - Cleaner HTML (HTML is *HTML!*)
 - ...?
 

@@ -18,6 +18,7 @@ Currently, this is mostly server-oriented.
 ### General
 
 - [Gerrit Code Review](https://www.gerritcodereview.com/) instead of [gitflow](http://nvie.com/posts/a-successful-git-branching-model/`? (read [Abandoning Gitflow and GitHub in favour of Gerrit](https://www.beepsend.com/2016/04/05/abandoning-gitflow-github-favour-gerrit/))
+- Javascript code documentation with [JSDoc](http://usejsdoc.org/) (anything else available?)
 
 ### Code style/analysis
 

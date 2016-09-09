@@ -87,6 +87,13 @@ Interesting reads from the front lines:
 #### ORM - data access
 
 - [loopback-datasource-juggler](https://github.com/strongloop/loopback-datasource-juggler/), part of the LoopBack tools (*"An ORM/ODM that provides a common set of interfaces for interacting with databases, REST APIs, and other types of data sources."*)
+- [sails.js](http://sailsjs.org/) ? (rant by Kavin Burke [here](https://kev.inburke.com/kevin/dont-use-sails-or-waterline/))
+
+The Loopback stack (libraries) looks pretty good; a bit better than sails.js. I wonder if it is modular enough to get cherry-picked... a serving of ORM for starters and we'll see what else combines well with the rest.
+
+Some more info:
+
+- [How to Implement Node + React Isomorphic JavaScript & Why it Matters](https://strongloop.com/strongblog/node-js-react-isomorphic-javascript-why-it-matters/) (strongloop)
 
 #### GraphQL
 

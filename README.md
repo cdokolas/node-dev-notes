@@ -37,7 +37,7 @@ This keeps preferred formatting styles in a `.editorconfig` project-local file a
 
 ### Frameworks/Libraries
 
-#### Server framework
+#### Server
 
 ##### Express
 
@@ -62,6 +62,18 @@ Sources:
 ##### Meteor
 
 "a large, opinionated Node.js framework"
+
+#### Client (Web Browser)
+
+##### Frontend tools (for development)
+
+- [Browserify](http://browserify.org/)
+  - [Frontend Dependency Management with Browserify](http://word.bitly.com/post/101360133837/browserify)
+- Webpack
+  - [Browserify vs Webpack](https://medium.com/@housecor/browserify-vs-webpack-b3d7ca08a0a9)
+  
+Also read:
+- ["npm vs bower vs browserify vs gulp vs grunt vs webpack"](http://stackoverflow.com/a/35064297/243572)
 
 #### Web Components (and related stuff)
 

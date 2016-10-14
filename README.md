@@ -111,6 +111,8 @@ Some more info:
 
 - [Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) (GraphQL for React)
 
+  also: [Learn Relay](https://learnrelay.org/)
+
 #### Data Visualization (Graphs)
 
 - D3 (how well does it integrate with React?)

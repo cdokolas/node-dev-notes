@@ -15,10 +15,11 @@ Currently, this is mostly server-oriented.
 
 ## Coding
 
-### General
+### Project/Source management and Code review
 
 - [Gerrit Code Review](https://www.gerritcodereview.com/) instead of [gitflow](http://nvie.com/posts/a-successful-git-branching-model/`? (read [Abandoning Gitflow and GitHub in favour of Gerrit](https://www.beepsend.com/2016/04/05/abandoning-gitflow-github-favour-gerrit/))
-- Javascript code documentation with [JSDoc](http://usejsdoc.org/) (anything else available?)
+- [OpenProject](https://www.openproject.org/) (will test a deployment)
+- [Tuleap](https://www.tuleap.org/) (looked promissing at first, but way too complicated and restrictive to deploy; practically needs it's own server)
 
 ### Code style/analysis
 
@@ -34,6 +35,10 @@ This keeps preferred formatting styles in a `.editorconfig` project-local file a
   Looks interesting
 - [JSHint](http://jshint.com/about/) (static analysis)
 - [complexity-report](https://github.com/escomplex/complexity-report) (?)
+
+### Documentation
+
+- Javascript code documentation with [JSDoc](http://usejsdoc.org/) (anything else available?)
 
 ### Frameworks/Libraries
 

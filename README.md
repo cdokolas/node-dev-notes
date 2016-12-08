@@ -125,6 +125,7 @@ Some more info:
 
 - [Tape](https://github.com/substack/tape) (unit testing)
 - [Instanbul](https://github.com/gotwarlost/istanbul) (code coverage)
+- [Jest](https://facebook.github.io/jest/) (by Facebook)
 - [Supertest](https://github.com/tj/supertest) (HTTP testing)
 
 ## Security

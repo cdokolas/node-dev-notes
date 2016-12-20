@@ -42,6 +42,10 @@ This keeps preferred formatting styles in a `.editorconfig` project-local file a
 
 ### Frameworks/Libraries
 
+#### Full-stack
+
+* [MERN](mern.io) MongoDB-Express-React-NodeJS (+Redux+WebPack)
+
 #### Server
 
 ##### Express
@@ -197,6 +201,7 @@ Notes on setting-up a development environment with Atom
 
 # Sources
 
+- [The State Of JavaScript](http://stateofjs.com/2016/introduction/) 2016 survey
 - [Why I use Tape Instead of Mocha & So Should You](https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4)
 - [How to store Node.js deployment settings/configuration files?](https://stackoverflow.com/questions/5869216/how-to-store-node-js-deployment-settings-configuration-files) (various answers)
 - [Process managers for Express apps](http://expressjs.com/en/advanced/pm.html)

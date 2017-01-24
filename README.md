@@ -17,7 +17,7 @@ Currently, this is mostly server-oriented.
 
 ### Project/Source management and Code review
 
-- [Gerrit Code Review](https://www.gerritcodereview.com/) instead of [gitflow](http://nvie.com/posts/a-successful-git-branching-model/`? (read [Abandoning Gitflow and GitHub in favour of Gerrit](https://www.beepsend.com/2016/04/05/abandoning-gitflow-github-favour-gerrit/))
+- [Gerrit Code Review](https://www.gerritcodereview.com/) instead of [gitflow](http://nvie.com/posts/a-successful-git-branching-model/) (read [Abandoning Gitflow and GitHub in favour of Gerrit](https://www.beepsend.com/2016/04/05/abandoning-gitflow-github-favour-gerrit/))
 - [OpenProject](https://www.openproject.org/) (will test a deployment)
 - [Tuleap](https://www.tuleap.org/) (looked promissing at first, but way too complicated and restrictive to deploy; practically needs it's own server)
 

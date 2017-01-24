@@ -63,10 +63,13 @@ With that, there are a few options that can be selected...
 - Mustache/Hogan
 - React (with [express-react-views](https://github.com/reactjs/express-react-views)). More about React below.
 
+- [EJS](http://ejs.co/) (a simple templating engine)
+
 Sources:
 - [Comparing JavaScript Templating Engines: Jade, Mustache, Dust and More](https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/) (an old post at StrongLoop)
 - [Isomorphic React Apps with React-Engine](https://www.paypal-engineering.com/2015/04/27/isomorphic-react-apps-with-react-engine/)
 - [Isomorphic JavaScript: The Future of Web Apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
+- [Node.js template showdown – 5 options compared](https://www.bearfruit.org/2014/01/20/node-js-template-showdown-5-options-compared/)
 
 ##### Meteor
 

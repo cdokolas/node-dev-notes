@@ -23,16 +23,11 @@ Currently, this is mostly server-oriented.
 
 ### Code style/analysis
 
-- [editorconfig](http://editorconfig.org/) and [atom module](https://atom.io/packages/editorconfig) for consistent code style on the IDE
-This keeps preferred formatting styles in a `.editorconfig` project-local file and very vcs-friendly!
-- [atom-beautify](https://atom.io/packages/atom-beautify) (conflicts with `editorconfig`?)
-  This works very well, but I have to look into: unifying formatting conventions with ESLint and possibly keeping settings in a project-local config file.
-- [markdown-preview](https://github.com/atom/markdown-preview) and  [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus) for previewing markdown documents
-	(Not sure of proper "github-flavored" formatting; *Brackets* seems to better handle this with paragraphs inside lists being properly rendered AFAICT.)
-- [ESLint](http://eslint.org/) (static analysis, lint) (with [airbnb rules](https://www.npmjs.com/package/eslint-config-airbnb))
-  I think this may be the most important component for writing clean ES6 code.
-- [Flow](http://flowtype.org/) (static type checker)
-  Looks interesting
+- [editorconfig](http://editorconfig.org/) and [atom module](https://atom.io/packages/editorconfig) for consistent code style on the IDE This keeps preferred formatting styles in a `.editorconfig` project-local file and very vcs-friendly!
+- [atom-beautify](https://atom.io/packages/atom-beautify) (conflicts with `editorconfig`?) This works very well, but I have to look into: unifying formatting conventions with ESLint and possibly keeping settings in a project-local config file.
+- [markdown-preview](https://github.com/atom/markdown-preview) and [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus) for previewing markdown documents (Not sure of proper "github-flavored" formatting; _Brackets_ seems to better handle this with paragraphs inside lists being properly rendered AFAICT.)
+- [ESLint](http://eslint.org/) (static analysis, lint) (with [airbnb rules](https://www.npmjs.com/package/eslint-config-airbnb)) I think this may be the most important component for writing clean ES6 code.
+- [Flow](http://flowtype.org/) (static type checker) Looks interesting
 - [JSHint](http://jshint.com/about/) (static analysis)
 - [complexity-report](https://github.com/escomplex/complexity-report) (?)
 
@@ -44,7 +39,8 @@ This keeps preferred formatting styles in a `.editorconfig` project-local file a
 
 #### Full-stack
 
-* [MERN](mern.io) MongoDB-Express-React-NodeJS (+Redux+WebPack)
+- [MERN](mern.io) MongoDB-Express-React-NodeJS (+Redux+WebPack)
+- [Meteor](meteor.com)
 
 #### Server
 
@@ -56,16 +52,18 @@ With that, there are a few options that can be selected...
 
 **Templating engines for Express**
 
-* Jade
+- Jade
 
- Jade is the classic templating engine for Express. It's a little weird and some features can be confusing. Also, it's not friendly to classic HTML developers as the syntax is not much like HTML.
+  Jade is the classic templating engine for Express. It's a little weird and some features can be confusing. Also, it's not friendly to classic HTML developers as the syntax is not much like HTML.
 
 - Mustache/Hogan
+
 - React (with [express-react-views](https://github.com/reactjs/express-react-views)). More about React below.
 
 - [EJS](http://ejs.co/) (a simple templating engine)
 
 Sources:
+
 - [Comparing JavaScript Templating Engines: Jade, Mustache, Dust and More](https://strongloop.com/strongblog/compare-javascript-templates-jade-mustache-dust/) (an old post at StrongLoop)
 - [Isomorphic React Apps with React-Engine](https://www.paypal-engineering.com/2015/04/27/isomorphic-react-apps-with-react-engine/)
 - [Isomorphic JavaScript: The Future of Web Apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
@@ -80,11 +78,15 @@ Sources:
 ##### Frontend tools (for development)
 
 - [Browserify](http://browserify.org/)
+
   - [Frontend Dependency Management with Browserify](http://word.bitly.com/post/101360133837/browserify)
+
 - Webpack
+
   - [Browserify vs Webpack](https://medium.com/@housecor/browserify-vs-webpack-b3d7ca08a0a9)
-  
+
 Also read:
+
 - ["npm vs bower vs browserify vs gulp vs grunt vs webpack"](http://stackoverflow.com/a/35064297/243572)
 
 #### Web Components (and related stuff)
@@ -93,7 +95,7 @@ I'm mainly on the pro-React camp for the following reasons:
 
 - JSX is better (being JS-with-HTML instead of the other way around, or separating them needlessly)
 - Server-side pre-render gives [isomorphic apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
-- Cleaner HTML (HTML is *HTML!*)
+- Cleaner HTML (HTML is _HTML!_)
 - ...?
 
 With React, one should use:
@@ -110,7 +112,7 @@ Interesting reads from the front lines:
 
 #### ORM - data access
 
-- [loopback-datasource-juggler](https://github.com/strongloop/loopback-datasource-juggler/), part of the LoopBack tools (*"An ORM/ODM that provides a common set of interfaces for interacting with databases, REST APIs, and other types of data sources."*)
+- [loopback-datasource-juggler](https://github.com/strongloop/loopback-datasource-juggler/), part of the LoopBack tools (_"An ORM/ODM that provides a common set of interfaces for interacting with databases, REST APIs, and other types of data sources."_)
 - [sails.js](http://sailsjs.org/) ? (rant by Kavin Burke [here](https://kev.inburke.com/kevin/dont-use-sails-or-waterline/))
 
 The Loopback stack (libraries) looks pretty good; a bit better than sails.js. I wonder if it is modular enough to get cherry-picked... a serving of ORM for starters and we'll see what else combines well with the rest.
@@ -159,7 +161,7 @@ Some more info:
 - [PM2](https://www.npmjs.com/package/pm2)
 - StrongLoop Process Manager (part of [strongloop](https://www.npmjs.com/package/strongloop) tools)
 
----
+--------------------------------------------------------------------------------
 
 # Base setup (with atom)
 

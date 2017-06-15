@@ -110,6 +110,11 @@ Interesting reads from the front lines:
 - [React vs Angular 2 - compare the incomparable?](http://blog.scalac.io/2016/02/16/react-vs-angular-2.html)
 - [FullStackReact](https://www.fullstackreact.com) (site dedicated to full stack development with react; need to go over the whole [yelp clone article](https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/))
 
+Important: There seems to be a proliferation of new, interesting frameworks trending:
+
+- [vue.js](https://vuejs.org/) is a contender for the 1st place in front-end frameworks and, AFAICT, tries to fill in the gap between functionality and ease-of-use in React
+- [Polymer](https://www.polymer-project.org/) by Google
+
 #### ORM - data access
 
 - [loopback-datasource-juggler](https://github.com/strongloop/loopback-datasource-juggler/), part of the LoopBack tools (_"An ORM/ODM that provides a common set of interfaces for interacting with databases, REST APIs, and other types of data sources."_)
@@ -211,3 +216,4 @@ Notes on setting-up a development environment with Atom
 - [How to store Node.js deployment settings/configuration files?](https://stackoverflow.com/questions/5869216/how-to-store-node-js-deployment-settings-configuration-files) (various answers)
 - [Process managers for Express apps](http://expressjs.com/en/advanced/pm.html)
 - [Eric Elliott's "Essential JavaScript Links"](https://github.com/ericelliott/essential-javascript-links)
+- [The top rising JavaScript trends to watch in 2017](https://medium.com/commit-push/the-top-rising-javascript-trends-to-watch-in-2017-86d8e87db3b3)

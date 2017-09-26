@@ -17,6 +17,7 @@ Currently, this is mostly server-oriented.
 
 ### Project/Source management and Code review
 
+- [Fossil](https://www.fossil-scm.org/) is a distributed SCM, issue tracking system and wiki.
 - [Gerrit Code Review](https://www.gerritcodereview.com/) instead of [gitflow](http://nvie.com/posts/a-successful-git-branching-model/) (read [Abandoning Gitflow and GitHub in favour of Gerrit](https://www.beepsend.com/2016/04/05/abandoning-gitflow-github-favour-gerrit/))
 - [OpenProject](https://www.openproject.org/) (will test a deployment)
 - [Tuleap](https://www.tuleap.org/) (looked promissing at first, but way too complicated and restrictive to deploy; practically needs it's own server)
@@ -52,14 +53,16 @@ With that, there are a few options that can be selected...
 
 **Templating engines for Express**
 
+- Handlebars
+
+  Handlebars is like Mustache but with limited logic added, which gives you the ability to handle simple cases where you would otherwise need to generate extra data to feed the template with.
+
 - Jade
 
   Jade is the classic templating engine for Express. It's a little weird and some features can be confusing. Also, it's not friendly to classic HTML developers as the syntax is not much like HTML.
 
 - Mustache/Hogan
-
 - React (with [express-react-views](https://github.com/reactjs/express-react-views)). More about React below.
-
 - [EJS](http://ejs.co/) (a simple templating engine)
 
 Sources:
@@ -91,7 +94,9 @@ Also read:
 
 #### Web Components (and related stuff)
 
-I'm mainly on the pro-React camp for the following reasons:
+I'm now mainly on the pro-Vue camp for the sole reason that Vue is highly regarded and is considered a much simpler solution than React.
+
+I was previously on the pro-React camp for the following reasons:
 
 - JSX is better (being JS-with-HTML instead of the other way around, or separating them needlessly)
 - Server-side pre-render gives [isomorphic apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
@@ -127,6 +132,8 @@ Some more info:
 - [How to Implement Node + React Isomorphic JavaScript & Why it Matters](https://strongloop.com/strongblog/node-js-react-isomorphic-javascript-why-it-matters/) (strongloop)
 
 #### GraphQL
+
+- [loopback-graphql](https://github.com/Tallyb/loopback-graphql) looks incomplete and I've experienced a bug as well ([#90](https://github.com/Tallyb/loopback-graphql/issues/90))
 
 - [Relay and GraphQL](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html) (GraphQL for React)
 
